@@ -2,6 +2,13 @@ package org.example;
 
 import java.util.List;
 
+/**
+ * Класс для демонстрации работы метода получения списка людей из
+ * заданного CSV файла
+ * @author Егор
+ * @version 1.0
+ */
+
 public class Main {
     public static void main(String[] args) {
         String fileName = "src/main/resources/foreign_names.csv";
