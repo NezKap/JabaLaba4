@@ -25,7 +25,7 @@ public class CSVReader {
             if (!str.isEmpty()) {
                 String[] cols = str.split(";");
                 Person person = new Person(Integer.parseInt(cols[0]), cols[1], cols[2], new Department(cols[4]),
-                        Integer.parseInt(cols[5]), cols[4]);
+                        Integer.parseInt(cols[5]), cols[3]);
                 result.add(person);
             }
         }
