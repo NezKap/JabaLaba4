@@ -15,4 +15,22 @@ public class Person {
         salary = _salary;
         birthDate = _birthDate;
     }
+    public int getID() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getGender() {
+        return gender;
+    }
+    public Department getDepartment() {
+        return department;
+    }
+    public int getSalary() {
+        return salary;
+    }
+    public String getBirthDate() {
+        return birthDate;
+    }
 }
